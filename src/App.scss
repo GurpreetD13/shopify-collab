@@ -1,2 +1,8 @@
-@use './styles/partials/global' as *;
+@use "./styles/partials/global" as *;
 
+.wrapper {
+  width: 1280px;
+  margin: 0 auto 0 0;
+  display: grid;
+  grid-template-columns: 15.875rem 1fr;
+}

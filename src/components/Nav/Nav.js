@@ -11,10 +11,6 @@ import storeMajor from '../../assets/icons/store_major.svg';
 import vector from '../../assets/icons/Vector.svg';
 
 
-
-
-
-
 const Nav = () => {
 
     return (
