@@ -10,15 +10,15 @@ const SearchBar = () => {
     return (
         <div className='search-bar'>
 
-            <div className='search-bar__container-- '>
-                <img src={logo} />
+            <div className='search-bar__container '>
+                <img className='search-bar__logo' src={logo} />
                 <p>Dani's Art Store</p>
             </div>
 
             <input className='search-bar__input' type="text" placeholder='Search' />
 
             <div className='search-bar__container '>
-                <img src={avatar} />
+                <img className='search-bar__avatar' src={avatar} />
                 <p>Daniel Alvarez</p>
             </div>
 
