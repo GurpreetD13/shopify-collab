@@ -1,4 +1,4 @@
-# Shipify Collab Lab
+# Shopify Collab Lab
 
 The mockup for collaboration tool.
 
