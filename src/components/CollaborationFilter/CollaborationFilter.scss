@@ -25,6 +25,16 @@
     background-position: 85% center;
     outline: 0;
   }
+  &__saved {
+    border: 1px solid #d2d5d8;
+    background-color: #fafbfb;
+    color: #8c9196;
+    padding: 0.5rem 0.75rem 0.5rem 1.75rem;
+    background-image: url("../../assets/icons/star-filled_minor.svg");
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    outline: 0;
+  }
   &__group-item:last-child {
     border-right: none;
   }

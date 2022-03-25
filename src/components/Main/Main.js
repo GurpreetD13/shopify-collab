@@ -1,3 +1,5 @@
+import './Main.scss';
+
 function Main(props) {
   return ( 
     <main className="Main">

@@ -14,7 +14,7 @@ const App = () => {
         <BrowserRouter>
             <SearchBar />
 
-            <div class="wrapper">
+            <div className="wrapper">
             <Sidebar>
                  <Nav />
             </Sidebar>
