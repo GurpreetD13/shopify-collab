@@ -1,9 +1,31 @@
 
-.nav {
+
+
+.main-nav {
     display: flex;
     flex-direction: column;
+    padding: 68px 22px 0 0;
+    box-shadow: inset -1px 0px 0px #E4E5E7;
 
-    &__nav-item {
-        
+    &__link {
+        display: flex;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 6px 0 6px 20px;
+        border-left: 4px solid #E4E5E7;
+
+        &:hover {
+            border-color:  #008060;;
+            background-color: #EDEEEF;
+        }
+        &--active {
+            border-color:  #008060;
+            background-color: #EDEEEF;
+        }
+    }
+
+    &__icon {
+        padding-right: 16px;
     }
 }

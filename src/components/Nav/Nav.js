@@ -8,56 +8,56 @@ import marketingMajor from '../../assets/icons/marketing_major.svg';
 import ordersMajor from '../../assets/icons/orders_major.svg';
 import productsMajor from '../../assets/icons/products_major.svg';
 import storeMajor from '../../assets/icons/store_major.svg';
+import pos from '../../assets/icons/POS.svg';
 import vector from '../../assets/icons/Vector.svg';
 
 
 const Nav = () => {
 
     return (
-        <nav>
-            <div className='nav-item'>
-                <img src={homeMajor}/>
+        <nav className='main-nav'>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={homeMajor} />
                 <p>Home</p>
             </div>
-            <div className='nav-item'>
-                <img src={ordersMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={ordersMajor} />
                 <p>Orders</p>
             </div>
-            <div className='nav-item'>
-                <img src={productsMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={productsMajor} />
                 <p>Products</p>
             </div>
-            <div className='nav-item'>
-                <img src={customersMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={customersMajor} />
                 <p>Customers</p>
             </div>
-            <div className='nav-item'>
-                <img src={analyticsMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={analyticsMajor} />
                 <p>Analytics</p>
             </div>
-            <div className='nav-item'>
-                <img src={marketingMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={marketingMajor} />
                 <p>Marketing</p>
             </div>
-            <div className='nav-item'>
-                <img src={discountsMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={discountsMajor} />
                 <p>Discounts</p>
             </div>
-            <div className='nav-item'>
-                <img src={appsMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={appsMajor} />
                 <p>Apps</p>
             </div>
-            <div className='nav-item'>
-                <img src={storeMajor}/>
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={storeMajor} />
                 <p>Online Store</p>
             </div>
-            <div className='nav-item'>
-                <img src={vector}/> 
-                {/* need to replace image above */}
+            <div className='main-nav__link'>
+                <img className='main-nav__icon' src={pos} />
                 <p>Point of Sale</p>
             </div>
-            <div className='nav-item'>
-                <img src={vector}/>
+            <div className='main-nav__link main-nav__link--active'>
+                <img className='main-nav__icon' src={vector} />
                 <p>Collaborations</p>
             </div>
 
