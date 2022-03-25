@@ -1,0 +1,29 @@
+.main-nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 68px 22px 0 0;
+  box-shadow: inset -1px 0px 0px #e4e5e7;
+
+  &__link {
+    display: flex;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 6px 0 6px 20px;
+    border-left: 4px solid #e4e5e7;
+
+    &:hover {
+      border-color: #008060;
+      background-color: #edeeef;
+    }
+    &--active {
+      border-color: #008060;
+      background-color: #edeeef;
+    }
+  }
+
+  &__icon {
+    padding-right: 16px;
+  }
+}
