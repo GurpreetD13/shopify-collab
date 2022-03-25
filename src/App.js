@@ -1,11 +1,22 @@
 import './App.scss';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Nav from './components/Nav/Nav';
+import SearchBar from './components/SearchBar/SearchBar';
+import Collabs from './pages/Collabs/Collabs';
 
-function App() {
-  return (
-      <header className="App-header">
-          <h1>Shopify X Collabs</h1>
-      </header>
-  );
+
+
+const App = () => {
+
+    return (
+        <BrowserRouter>
+            <SearchBar />
+            <Nav />
+            <Collabs />
+            <Switch>
+            </Switch>
+        </BrowserRouter>
+    );
 }
 
 export default App;
