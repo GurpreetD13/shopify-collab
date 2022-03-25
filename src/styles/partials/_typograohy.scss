@@ -1,0 +1,19 @@
+// @font-face {
+//     font-family: "San Francisco";
+//     font-weight: 400;
+//     src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+//   }
+
+
+// option 1. above was san francisco font from 3rd answer on stack-overflow answer here: 
+// https://stackoverflow.com/questions/32660748/how-to-use-apples-new-san-francisco-font-on-a-webpage
+
+
+// option 2. used the code from shopify that is in the app.scss/_global.scss file 
+// https://polaris.shopify.com/design/typography#section-font-stack
+
+
+
+@use './mixins' as *;
+
+// can create mixins for different font-sections below
